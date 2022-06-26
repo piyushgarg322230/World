@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* display: block; */
+}
+.ml-auto{
+    margin-left: auto;
+    
+}
+.carousel-item img{
+    width: 90%;
+    height: 85vh;
+}
+.about-us{
+    margin-top: 40px;
+    text-align: center;
+}
+.button-format{
+    border: 0px;
+    background-color: white;
+    color: black;
+}
+.img-radiaus{
+    border-radius: 30px;
+    width: 100%;
+    height: 45vh;
+}
+.size-button{
+    width: 150px;
+}
+.about_img{
+    width: 100%;
+    height: 250px;
+}
+.detail-button{
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.image-size{
+    width: 80%;
+    height: 25vh;
+    /* padding-left: 50px; */
+    /* margin-left: 20px; */
+}
+.offer-style{
+    background-color: #a6dcef;
+    padding: 50px;
+}
+.log-in:hover{
+    text-decoration: underline;
+}
+.submit-1{
+    padding: 1px;
+}
+@media screen and (max-width:700px) {
+    .carousel-item img{
+       width: 100%;
+       height: 50vh;
+    }
+}
+@media screen and (max-width:500px) {
+    .carousel-item img{
+       width: 100%;
+       height: 30vh;
+    }
+    .img-radiaus{
+        width: 100%;
+        height: 30vh;
+    }
+    .image-size{
+        width: 100%;
+        height: 20vh;
+    }
+}
+
+
+/* responsive Website */
+
+
+
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+     ...
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+     ... 
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+     ... 
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+     ... 
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+     ...
+} */
